@@ -1,6 +1,26 @@
 :root{
     --text-link-nav: rgba(102,102,102,1);
+    --bgck-color-body: #FFFFFF;
 }
-.link_text{
+
+body{
+    background-color: var(--bgck-color-body);
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.text_navbar{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+a{
     color:var(--text-link-nav);
+    text-decoration: none;
+}
+
+.nav_text{
+    align-items: baseline !important;
 }
