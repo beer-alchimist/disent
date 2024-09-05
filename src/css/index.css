@@ -1,6 +1,10 @@
 :root{
     --text-link-nav: rgba(102,102,102,1);
     --bgck-color-body: #FFFFFF;
+    --text-portfol-normal:rgba(66, 68, 110, 1);
+    --text-portfol-gradient:#e213f5;
+    --text-portfol-gradient-1:rgba(19, 176, 245, 1);
+    --text-portfol-gradient-2:rgba(231, 15, 170, 1);
 }
 
 body{
@@ -14,6 +18,17 @@ body{
     font-weight: 500;
     font-size: 20px;
     line-height: 26px;
+}
+
+.text_portfol{
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 70px;
+    color:var(--text-portfol-normal);
+}
+
+#brand{
+    color:var(--text-portfol-gradient) !important;
 }
 
 a{
